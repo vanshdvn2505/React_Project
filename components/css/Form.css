@@ -1,0 +1,40 @@
+.container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.845);
+}
+input::placeholder{
+    font-size: 15px;
+    padding: 2px;
+}
+button{
+    margin: 30px auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+.username, .pass{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    cursor: pointer;
+}
